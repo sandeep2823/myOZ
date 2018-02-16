@@ -1,0 +1,5 @@
+EXPECTED_DATA:
+  DEFAULT:
+    :computer_static_text: "Computers"
+    :electronics_static_text: "Automation Practice Website"
+#    :sub_header_static_text: "Practice Selenium"

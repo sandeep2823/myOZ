@@ -1,0 +1,12 @@
+INPUT_DATA:
+  DEFAULT:
+    :first_name_text_field: 'Sandeep1'
+    :last_name_text_field: 'Singh1'
+    :dob_day_select_list: '28'
+    :dob_month_select_list: 'August'
+    :dob_year_select_list: '1990'
+    :email_text_field: 'sandeep.singh1@centricconsulting.com'
+    :password_text_field: 'Abcdefghj'
+    :confirm_password_text_field: 'Abcdefghj'
+    :company_name_text_field: 'Centric Consulting1'
+

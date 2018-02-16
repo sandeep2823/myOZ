@@ -11,8 +11,6 @@ Given /^I am on the (.*?) Page(?: by way of the (.*?) Page)?$/ do |target_page, 
     set_data_target
 end
 
-
-
 When /^I (?:proceed|go back) to the (.*?) Page(?: by way of the (.*?) Page)?$/ do |target_page, intermediate_page|
     proceed_to(CoreUtils.find_class(intermediate_page+' Page')) if intermediate_page
     proceed_to(CoreUtils.find_class(target_page+' Page'))
